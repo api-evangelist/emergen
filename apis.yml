@@ -1,7 +1,21 @@
 aid: emergen
 name: emergen
-description: emergen is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  emergen (智昌科技集团股份有限公司, Zhichang Technology Group) is a Chinese industrial
+  intelligence company founded by Dr. Gan Zhongxue, an expert in intelligent
+  manufacturing. Built around its proprietary "ternary control" technology and
+  cluster (swarm) robotics, the company positions itself as "AI + Control,"
+  delivering integrated "industrial agent" solutions that install a control
+  "brain" into individual machines, production lines, and whole factories. Its
+  portfolio spans robot controllers, ubiquitous controllers, industrial and
+  collaborative robots, life-science robots, GVision 2D/3D machine vision, the
+  GSC-AI100 sense-compute-control AI controller, a swarm-intelligence network
+  controller, a micro-control cloud platform, and the "Jiangxin" family of
+  industrial large models (design, production, service, and management). emergen
+  serves automotive, electronics, equipment manufacturing, steel, metallurgy,
+  textile, furniture, and shipbuilding sectors, plus Robotics-as-a-Service. It
+  was surfaced as a portfolio company of qiming and added to the API Evangelist
+  network. As of this pass no public developer/API surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/emergen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,30 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://emergen.cn/css/images/logo-w.png
 tags:
 - Company
+- Robotics
+- Industrial Automation
+- Manufacturing
+- Artificial Intelligence
+- Robot Controllers
+- Machine Vision
+- Industrial IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/emergen-domain-security.yml
 - type: Website
   url: https://emergen.cn
+- type: Blog
+  url: https://emergen.cn/news
+- type: Support
+  url: https://emergen.cn/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
